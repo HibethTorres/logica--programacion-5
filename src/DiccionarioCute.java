@@ -2,7 +2,7 @@ import java.util.*;
 
 public class DiccionarioCute {
     public static void main(String[] args) {
-        // 1. Diccionario con cositas adorables (HashMap)
+        // 1. Diccionario con palabras cute (HashMap)
         HashMap<String, String> cuteDict = new HashMap<>();
 
         cuteDict.put("gatito", "kitten");
@@ -27,13 +27,13 @@ public class DiccionarioCute {
         cuteDict.put("hada", "fairy");
 
         List<String> palabrasEsp = new ArrayList<>(cuteDict.keySet());
-        Collections.shuffle(palabrasEsp); // ¡Mezclamos para más diversión!
+        Collections.shuffle(palabrasEsp); // Mezclamos para que sea más interesante
 
         Scanner reader = new Scanner(System.in);
         int correctas = 0;
         int incorrectas = 0;
 
-        System.out.println("✨ ¡Holi! ¡Bienvenida/o al Desafío de Diccionario en inglés! ✨");
+        System.out.println("✨ ¡Hola! ¡Bienvenida/o al Desafío de Diccionario en inglés! ✨");
         System.out.println("¡Demuestra tu magia traduciendo estas 5 palabritas al inglés! 🌈💖\n");
 
         for (int i = 0; i < 5; i++) {
